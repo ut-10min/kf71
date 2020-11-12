@@ -19,7 +19,7 @@ function constructTimeTable(timeTable, talksData) {
                   if ((time == "16:05") || (time == "16:25")) {
                     return { time: "\xa0", name: "\xa0", title: "", major: ""};
                   }
-                  else if (name == "録画セッション") {
+                  else if (name == "一部講演の録画を放映する予定です") {
                     return { time: time, name: "", title: name, major: ""};
                   }
                   else {
